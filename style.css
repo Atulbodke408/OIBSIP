@@ -1,0 +1,113 @@
+body{
+  padding: 80px;
+  font-family: Times New Roman;
+  font-size:  18px;
+  color:red;
+  font-family: system-ui;
+  background: linear-gradient(45deg, #6666AA, #AA6666);
+  color: white;
+  text-align: center;
+  
+}
+.container{
+  background-color:lightyellow;
+  padding: 10px;
+  border :  5px solid brown;
+}
+#head1{
+  padding-top:50px;
+}
+.text-edit{
+  font-family:Verdena;
+  font-size:20px;
+}
+.img-edit{
+  align: center;
+}@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@400&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+main, article, section, header, footer, img, body {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: lightblue;
+  color:black;
+  font-family: Quicksand, sans-serif;
+  display:flex;
+  justify-content: center;
+}
+
+#main {
+  width:60%;
+  display:flex;
+  flex-direction: column;
+}
+
+header {
+  text-align:center;
+}
+
+header #title {
+  font-family: "Dancing Script", monospace;
+  font-size: calc(1.5rem + 3vw);
+  margin-bottom: 10px;
+}
+
+main #img-div {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:50px 0px;
+}
+
+#img-div #image {
+  height:auto;
+  max-width:100%;
+}
+
+#tribute-info article, footer {
+  text-align: justify;
+  font-size: 1.125em;
+}
+
+footer {
+  margin:40px 0px;
+}
+
+footer p {
+  margin: 3px 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color:red;
+}
+
+@media all and (max-width:1000px) {
+
+  #main {
+    width: 70%;
+  }
+
+  #img-caption {
+    font-size:0.875em;
+  }
+}
+
+@media all and (max-width:720px){
+  #main {
+    width: 80%;
+  }
+
+  #img-caption {
+    font-size:0.813em;
+  }
+}
